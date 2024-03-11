@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="folder" value="Chrome"/>
+    <parameter name="size" value="1920"/>
+    <parameter name="File" value="1920x1080"/>
+    <parameter name="browserlaunch" value="chrome"/>
+    <parameter name="url" value="https://www.getcalley.com/"/>
+    <parameter name="height" value="1080"/>
+    <classes>
+      <class name="org.task01.Task_01">
+        <methods>
+          <include name="browseLaunch"/>
+          <include name="urlLaunch"/>
+          <include name="screenShot"/>
+        </methods>
+      </class> <!-- org.task01.Task_01 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="folder" value="Edge"/>
+    <parameter name="size" value="1366"/>
+    <parameter name="File" value="1366x768"/>
+    <parameter name="browserlaunch" value="edge"/>
+    <parameter name="url" value="https://www.getcalley.com/calley-call-from-browser/"/>
+    <parameter name="height" value="768"/>
+    <classes>
+      <class name="org.task01.Task_01">
+        <methods>
+          <include name="browseLaunch"/>
+          <include name="urlLaunch"/>
+          <include name="screenShot"/>
+        </methods>
+      </class> <!-- org.task01.Task_01 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test4(failed)">
+    <parameter name="folder" value="Edge"/>
+    <parameter name="size" value="414"/>
+    <parameter name="File" value="414x896"/>
+    <parameter name="browserlaunch" value="edge"/>
+    <parameter name="url" value="https://www.getcalley.com/how-calley-auto-dialer-app-works/"/>
+    <parameter name="height" value="896"/>
+    <classes>
+      <class name="org.task01.Task_01">
+        <methods>
+          <include name="browseLaunch"/>
+          <include name="urlLaunch"/>
+          <include name="screenShot"/>
+        </methods>
+      </class> <!-- org.task01.Task_01 -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+</suite> <!-- Failed suite [Suite] -->
