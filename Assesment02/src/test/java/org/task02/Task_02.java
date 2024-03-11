@@ -42,7 +42,7 @@ public class Task_02 extends BaseClass {
 
 	@Then("The user need to upload the demo_data file and click import button.")
 	public void the_user_need_to_upload_the_demo_data_file_and_click_import_button() {
-		sendKeys(d.getUpload(), "C:\\Users\\SRI\\eclipse-workspace\\Assesment\\src\\test\\resources\\demo-data.xlsx");
+		sendKeys(d.getUpload(), "C:\\Users\\SRI\\eclipse-workspace\\Assesment02\\src\\test\\resources\\demo-data.xlsx");
 		click(d.getImport());
 	}
 
